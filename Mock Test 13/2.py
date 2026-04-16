@@ -23,7 +23,7 @@ for i in range(len(x)):
         list2.append(y[i])
 
 mini = min(list2)
-ind = y.index(mini)
+ind = list1[list2.index(mini)]
 print(ind+1)
 
 #Code ends here 
